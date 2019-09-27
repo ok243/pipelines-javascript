@@ -10,3 +10,16 @@ describe('String', function () {
         });
     });
 });
+
+
+describe('custom test', function () {
+    it('cool test', function () {
+        assert.equal(-1, -1);
+    });
+});
+
+describe('custom test 2', function () {
+    it('cool failed test', function () {
+        assert.equal(-1, 0);
+    });
+});
